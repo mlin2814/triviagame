@@ -48,94 +48,60 @@ var stopwatch = {
         return minutes + ":" + seconds;
     }
 };
-//    var startAt=2000;
-//         var number = startAt;
 
-//         // When the stop button gets clicked, run the stop function.
-//         $('#stop').on('click', stop);
-//         // When the resume button gets clicked, execute the run function.
-//         $('#resume').on('click', run);
-//         $('#reset').on('click', reset);
+var questions = [{
+    question: "We are the ...",
+    choices: ["Crystal Gems", "Champions", "World", "99%"],
+    correctAnswer: 0
+}, {
+    question: "Steven cannot do which of the following?",
+    choices: ["Generate cats", "Float", "Heal", "train Lion"],
+    correctAnswer: 3
+}, {
+    question: "Do Gems need to eat food?",
+    choices: ["Yes", "No"],
+    correctAnswer: 1
+}, {
+    question: "Who leads the Homeworld Gems?",
+    choices: ["Jasper", "Rose Quartz", "The Diamonds", "Onion"],
+    correctAnswer: 2
+}, {
+    question: "What is the show Steven likes to watch?",
+    choices: ["Crying Breakfast Friends", "Adventure Time", "Invader Zim", "Hannah Montana"],
+    correctAnswer: 0
+}, {
+    question: "Connie cannot do which of the following?",
+    choices: ["Play violin", "Swordfight", "Breathe Under Water", "Read"],
+    correctAnswer: 2
+}, {
+    question: "Who is not based off of an actual gem?",
+    choices: ["Garnet", "Amethyst", "Pearl", "Lapis"],
+    correctAnswer: 2
+}, {
+    question: "Amethyst came from...",
+    choices: ["Homeworld", "the Kindergarten", "Galaxy Warp", "Paradise Island"],
+    correctAnswer: 1
+}, {
+    question: "How thirsty is Pearl?",
+    choices: ["Hydrated", "A Little", "Desert", "Spongebob in Sandy's Dome without a helmet"],
+    correctAnswer: 3
+}, {
+    question: "Steven's weapon(s) are...",
+    choices: ["A shield", "A sword", "A bubble", "All of the above"],
+    correctAnswer: 3
+}];
 
-//         // The run function sets an interval
-//         // that runs the decrement function once a second.
-//         // Notice how we name the interval "counter."
-//         function displayNumber(){
-//             $('#show-number').html('<h2>' + number + '</h2>');
 
-//         }
+question1: function(){
+var question1 = ;
+var answers = ;
+var answer = "Crystal Gems";
+for (var i = 0; i<answers.length; i++) {
+	Things[i]
+}
+if $('.button').click(answers[0])
+    console.log(Correct!);
+} else {
+    console.log(Whoops!);
+}
 
-//         function run(){
-//             counter = setInterval(decrement, 1000);
-//         }
-
-//         function reset() {
-//             number=startAt;
-//             displayNumber();
-//         }
-
-//         // The decremeent function.
-//         function decrement(){
-//             // Decrease number by one.
-//             number--;
-//             // Show the number in the #show-number tag.
-//             displayNumber();
-//             // Once number hits zero...
-//             if (number === 0){
-//                 // ...run the stop function.
-//                 stop();
-// //                number=10;
-//                 // Alert the user that time is up.
-//                 alert('Time Up!')
-//             }
-//         }
-
-//         // The stop function
-//         function stop(){
-//             // Clears our "counter" interval.
-//             // We just pass the name of the interval
-//             // to the clearInterval function.
-//             clearInterval(counter);
-//         }
-
-//         // Execute the run function.
-//         run();
-
-// question1: function(){
-// var question1 = "We are the ...";
-// var answers = ["Crystal Gems", "Champions", "World", "99%"];
-// var answer = "Crystal Gems";
-// for (var i = 0; i<answers.length; i++) {
-// 	Things[i]
-// }
-// if $('.button').click(answers[0])
-//     console.log(Correct!);
-// } else {
-//     console.log(Whoops!);
-// }
-
-// question2: function(){
-// var question2 = "Steven cannot do which one:";
-// var answers = ["Generate cats", "Float", "Heal", "train Lion"];
-// var answer = "train Lion";
-// for (var i = 0; i<answers.length; i++) {
-//     Things[i]
-// }
-// if $('.button').click(answers[0])
-//     console.log(Correct!);
-// } else {
-//     console.log(Whoops!);
-// }
-
-// question1: function(){
-// var question1 = "We are the ...";
-// var answers = ["Crystal Gems", "Champions", "World", "99%"];
-// var answer = "Crystal Gems";
-// for (var i = 0; i<answers.length; i++) {
-//     Things[i]
-// }
-// if $('.button').click(answers[0])
-//     console.log(Correct!);
-// } else {
-//     console.log(Whoops!);
-// }
